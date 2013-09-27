@@ -8,6 +8,10 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.container {
+  max-width: none !important;
+  width: 970px;
+}
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
 
@@ -49,9 +53,6 @@ body {
   border-radius: 0 0 5px 5px;
 }
 
-#cont_iphone{
-  position: relative;
-}
 #iphone{
   width: 235px;
   margin-top: 30px;
@@ -62,6 +63,22 @@ body {
   height: 219px;
   top: 97px;
   left: 59px;
+}
+
+#iphone_land{
+  height: 235px;
+  margin-top: 30px;
+}
+#screen_land{
+  position: absolute;
+  height: 219px;
+  left: 121px;
+  top: 187px; 
+  -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 blockquote{
